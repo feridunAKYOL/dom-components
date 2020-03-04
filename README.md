@@ -19,7 +19,13 @@ in each exercise or example, there is a function to write and test cases. the te
 
 ---
 
-Some helpful resources
+## Study Tips
+
+To get the most out of these exercises, it's best to have your devtools open and docked to the right of your screen.  This will make it easier to compare the test results to the inspected DOM, and to the logged components
+
+---
+
+## Some helpful resources
 
 * [super highly recommended tutorial](https://dom-tutorials.appspot.com/static/index.html)
 * [sort of like JS Tutor, for the DOM](https://software.hixie.ch/utilities/js/live-dom-viewer/)
