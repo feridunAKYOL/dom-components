@@ -1,14 +1,6 @@
 try {
 
   function linkedThumbnail(obj) {
-    const imgEl = document.createElement('img');
-    // set attributes on imgEl and append any children
-
-    const aEl = document.createElement('a');
-    // set attributes on aEl and append any children
-
-    const divEl = document.createElement('div');
-    // set attributes on divEl and append any children
 
   }
 

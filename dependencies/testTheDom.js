@@ -13,11 +13,12 @@ const { testComponent, testElement, compareElements } = (() => {
       }
 
       name = component.name;
-
+      console.log('\n--- ' + name + ' ---');
 
       describe(name, () => {
         tests.forEach(testCase => {
           const renderedComponent = component(...testCase.args);
+          console.dir(renderedComponent);
           if (!(renderedComponent instanceof Element)) {
             describe(testCase.name + ': should return a DOM element ...', () => {
               it("... but it didn't :(", () => {
