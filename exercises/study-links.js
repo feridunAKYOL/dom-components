@@ -14,11 +14,14 @@ try {
 			const liEl = document.createElement('li');
 			// append the aEl & liEl
 			liEl.appendChild(aEl);
+			ulEl.appendChild(liEl);
 		});
 
 		const divEl = document.createElement('div');
 		// append the header & list
-		divEl.appendChild(liEl);
+		divEl.appendChild(h3El);
+		divEl.appendChild(ulEl);
+		return divEl;
 		//
 	}
 
